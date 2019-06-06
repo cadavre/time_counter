@@ -1,0 +1,25 @@
+upcount:
+  description: Start upcouting the timer.
+  fields:
+    entity_id:
+      description: Entity ID
+
+downcount:
+  description: Start downcouting the timer.
+  fields:
+    entity_id:
+      description: Entity ID
+
+stop:
+  description: Stop timer.
+  fields:
+    entity_id:
+      description: Entity ID
+
+set:
+  description: Start timer to get to given value
+  fields:
+    entity_id:
+      description: Entity ID
+    state:
+      description: Target state value.
